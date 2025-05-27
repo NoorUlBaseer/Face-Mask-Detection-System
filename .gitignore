@@ -1,0 +1,11 @@
+# Ignore processed data
+processed_data/
+
+# Ignore test images
+test_images/
+
+# Ignore virtual environment
+venv/
+
+# Ignore annotations.csv file
+annotations.csv

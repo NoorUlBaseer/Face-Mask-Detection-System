@@ -1,0 +1,24 @@
+# Run the below command to install the required packages
+# pip install -r requirements.txt
+
+# Core Machine Learning & Deep Learning
+torch==2.7.0+cu126       # PyTorch with CUDA 12.6 support
+torchvision==0.22.0
+torchaudio==2.7.0+cu126
+
+# Use PyTorch index for CUDA wheels
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# Data processing
+numpy==2.2.5
+pandas==2.2.3
+scikit-learn==1.6.1
+opencv-python==4.11.0.86
+matplotlib==3.10.3
+albumentations==2.0.6
+
+# PyTorch utility for Progress Bar
+tqdm==4.67.1
+
+# For KaggleHub Dataset
+kagglehub==0.3.12
