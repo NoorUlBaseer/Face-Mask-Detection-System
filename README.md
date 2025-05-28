@@ -2,6 +2,8 @@
 
 This project presents a custom deep learning solution for face mask detection, developed from scratch using PyTorch. It implements a lightweight Single Shot Detector (SSD) model to localize and classify facial regions in images based on whether a mask is worn or not. By intentionally avoiding pre-trained models, the system provides a hands-on, ground-up understanding of object detection architectures, custom loss functions, data preprocessing, and GPU-accelerated training workflows.
 
+> "Built from scratch to understand object detection from the ground up — not just to use AI, but to build it."
+
 ---
 
 ## 🎯 Project Objectives
@@ -141,5 +143,3 @@ Refer to the included Virtual_Enviroment_Commands.txt file for:
 This project is for academic use only and is licensed under the MIT License. For more details, see the [LICENSE](LICENSE.txt) file. Contributions are welcome to enhance functionality or improve performance. 
 
 ---
-
-> "Built from scratch to understand object detection from the ground up — not just to use AI, but to build it."
